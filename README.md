@@ -1,4 +1,8 @@
 random_walk_simulator
 =====================
+Auther: Bin Feng, Yuan Gao
 
-the python version of random_walk_simulator
+
+The python version of random_walk_simulator
+
+needed lib: matplotlib, pyqt, numpy, scipy

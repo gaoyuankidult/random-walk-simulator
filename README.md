@@ -1,8 +1,9 @@
 random_walk_simulator
 =====================
-Auther: Bin Feng, Yuan Gao
+Author: Bin Feng, Yuan Gao
 
+License: GNU
 
 The python version of random_walk_simulator
 
-needed lib: matplotlib, pyqt, numpy, scipy
+Needed lib: matplotlib, pyqt, numpy, scipy

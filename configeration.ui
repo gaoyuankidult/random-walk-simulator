@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>conf_dialog</class>
+ <widget class="QDialog" name="conf_dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>239</width>
+    <height>207</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Configeration Dialog</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>221</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="conf_layout">
+    <property name="fieldGrowthPolicy">
+     <enum>QFormLayout::ExpandingFieldsGrow</enum>
+    </property>
+    <item row="0" column="0">
+     <widget class="QLabel" name="initial_state_label">
+      <property name="toolTip">
+       <string>you can set the initial state here</string>
+      </property>
+      <property name="text">
+       <string>Initial state</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="initial_state_value"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="random_number_label">
+      <property name="toolTip">
+       <string>you can set the random node number here</string>
+      </property>
+      <property name="text">
+       <string>random number</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="random_numner_value"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="upper_range_label">
+      <property name="toolTip">
+       <string>you can set the upper range for the uniform distribution of random work here.
+It should be positive.</string>
+      </property>
+      <property name="text">
+       <string>upper range</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="upper_range_value"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="lower_range_label">
+      <property name="toolTip">
+       <string>you can set the lower range for the uniform distribution of random work here.
+It should be negative.</string>
+      </property>
+      <property name="text">
+       <string>lower range</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="lower_range_value"/>
+    </item>
+    <item row="5" column="1">
+     <widget class="QPushButton" name="conf_ok_button">
+      <property name="contextMenuPolicy">
+       <enum>Qt::DefaultContextMenu</enum>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="text">
+       <string>OK</string>
+      </property>
+      <property name="default">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QPushButton" name="conf_cancle_button">
+      <property name="text">
+       <string>Cancle</string>
+      </property>
+      <property name="default">
+       <bool>false</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="repeat_time_label">
+      <property name="toolTip">
+       <string>you should put random walk distance here.</string>
+      </property>
+      <property name="text">
+       <string>repeat time</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="repeat_time_value"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>initial_state_value</tabstop>
+  <tabstop>random_numner_value</tabstop>
+  <tabstop>upper_range_value</tabstop>
+  <tabstop>lower_range_value</tabstop>
+  <tabstop>repeat_time_value</tabstop>
+  <tabstop>conf_cancle_button</tabstop>
+  <tabstop>conf_ok_button</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
